@@ -1,0 +1,13 @@
+{
+  "name": "proyecto-clase5",
+  "version": "1.0.0",
+  "main": "http.js",
+  "scripts": {
+    "start1": "nodemon http.js",
+    "start2": "nodemon express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

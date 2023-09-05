@@ -1,0 +1,13 @@
+<%- include('./partes/head') %>
+<div class="contenedor">
+    <h1><%= title %></h1>
+    <p><%= message %></p>
+    <button class="button">Ver productos</button>
+    <ul>
+        <% for (let i = 0; i < lista.length; i++) { %>
+            <li><%= lista[i].name %> -
+            ($ <%= lista[i].price %>)</li>
+        <% } %>
+    </ul>
+</div>
+<%- include('./partes/footer') %>
